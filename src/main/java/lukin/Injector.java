@@ -4,9 +4,12 @@ import java.io.FileInputStream;
 import java.lang.reflect.Field;
 import java.util.*;
 
+//https://github.com/kerbyy/reflectionLab5
+
 public class Injector {
 
     /**
+     * @author Artem Lukin
      * Assigns the necessary classes to fields that are not filled in and marked with the AutoInjectable annotation
      * @param obj  accepts any object
      * @return The same object, but with already initialized fields
