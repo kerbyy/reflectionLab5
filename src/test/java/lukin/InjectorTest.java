@@ -2,7 +2,6 @@ package lukin;
 
 import org.junit.jupiter.api.Test;
 
-
 class InjectorTest {
     @Test
     public void testInject() {
